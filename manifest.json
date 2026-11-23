@@ -1,0 +1,9 @@
+{
+  "display_name": "预设迁移助手",
+  "author": "自用工具",
+  "version": "0.3.0",
+  "js": "index.js",
+  "css": "style.css",
+  "loading_order": 100,
+  "hooks": { "activate": "activate", "disable": "cleanup", "clean": "cleanup" }
+}
